@@ -1,16 +1,34 @@
-# React + Vite
+# 📝 To Do App - React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern To Do List application built with **React JS**.  
+This application includes **authentication (login & register)**, **dashboard**, **profile page**, and **task management with localStorage**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Register & Login (simulated authentication)
+- Dashboard with:
+  - To Do List
+  - Done List
+- Add task via modal (from Navbar)
+- Priority level (Low, Medium, High)
+- Mark task as done
+- Delete task
+- Profile page (show user data)
+- Data saved per user using localStorage
+- Responsive & modern UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React JS (Vite)
+- React Router DOM
+- CSS (Pure CSS, no framework)
+- localStorage (for data persistence)
+
+---
+
+## 📂 Project Structure
+
